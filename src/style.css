@@ -2,6 +2,10 @@ body {
   font-family: "Google Sans", arial, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   color: #878787;
   font-size: 24px;
@@ -62,4 +66,14 @@ li:first-letter {
   position: relative;
   font-size: 16px;
   top: -34px;
+}
+
+.weather-temperature .active {
+  color: #5f5e68;
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
