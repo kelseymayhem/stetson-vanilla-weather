@@ -40,7 +40,7 @@ let iconElement = document.querySelector("#icon");
 }
 
 let apiKey = "ce2a122a9141d0af01c35f1399c43afe";
-let city = "Kabul";
+let city = "Bangkok";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature)
