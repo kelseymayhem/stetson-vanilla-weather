@@ -63,6 +63,16 @@ li {
   white-space: nowrap;
 }
 
+.weather-forecast-date {
+  text-align: center;
+  color: #878787;
+  font-size: 13px;
+  font-weight: 100;
+  height: auto;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
 li:first-letter {
   text-transform: capitalize;
 }
